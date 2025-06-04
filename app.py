@@ -3,8 +3,8 @@ import joblib
 import pandas as pd
 
 # Load the model and scaler
-model = joblib.load('multitarget_random_forest_model.joblib')
-scaler = joblib.load('scaler.joblib')
+model = joblib.load('multitarget_random_forest_model.pkl')
+scaler = joblib.load('scaler.pkl')
 
 # Streamlit app title
 st.title("Flexural Stress, Strain, and Extension Predictor")
